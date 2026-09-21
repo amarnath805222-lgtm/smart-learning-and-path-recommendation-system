@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+smartlearn.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
